@@ -15,7 +15,7 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./cjs/react-dom.production.min.js":"i17t"}],"PYkg":[function(require,module,exports) {
 
 },{}],"lBTf":[function(require,module,exports) {
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Card=void 0;var e=t(require("react"));function t(e){return e&&e.__esModule?e:{default:e}}require("./card.styles.css");var r=function(t){return e.default.createElement("div",{className:"card-container"},e.default.createElement("img",{alt:"monster",src:"https://robohash.org/".concat(t.monster.id,"?set=set3&size=180x180")}),e.default.createElement("h2",null,t.monster.name),e.default.createElement("p",null,t.monster.email))};exports.Card=r;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Card=void 0;var e=t(require("react"));function t(e){return e&&e.__esModule?e:{default:e}}require("./card.styles.css");var r=function(t){return e.default.createElement("div",{className:"card-container"},e.default.createElement("img",{alt:"monster",src:"https://robohash.org/".concat(t.monster.id,"?set=set2&size=180x180")}),e.default.createElement("h2",null,t.monster.name),e.default.createElement("p",null,t.monster.email))};exports.Card=r;
 },{"react":"n8MK","./card.styles.css":"PYkg"}],"joAq":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.CardList=void 0;var e=t(require("react")),r=require("../card/card.component");function t(e){return e&&e.__esModule?e:{default:e}}require("./card-list.styles.css");var s=function(t){return e.default.createElement("div",{className:"card-list"},t.monsters.map(function(t){return e.default.createElement(r.Card,{key:t.id,monster:t})}))};exports.CardList=s;
 },{"react":"n8MK","../card/card.component":"lBTf","./card-list.styles.css":"PYkg"}],"seqs":[function(require,module,exports) {
@@ -25,4 +25,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"react":"n8MK","../card-list/card-list.component":"joAq","../search-box/search-box.component":"seqs","./app.styles.css":"PYkg"}],"iA92":[function(require,module,exports) {
 "use strict";var e=u(require("react")),t=u(require("react-dom")),r=u(require("./app/app"));function u(e){return e&&e.__esModule?e:{default:e}}t.default.render(e.default.createElement(r.default,null),document.getElementById("app")),module.hot&&module.hot.accept();
 },{"react":"n8MK","react-dom":"NKHc","./app/app":"jWWI"}]},{},["iA92"], null)
-//# sourceMappingURL=/components.3ba276d1.js.map
+//# sourceMappingURL=/components.c0c0226b.js.map
